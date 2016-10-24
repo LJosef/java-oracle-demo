@@ -1,7 +1,7 @@
 version: "0.1.0"
 pre_ci_boot:
    image: index.alauda.cn/alaudasa/centos6-jdk7-maven3
-   tag: "1.6"
+   tag: "latest"
 ci:
    - mvn package
    - cp target/ $ALAUDACI_DEST_DIR/target/
