@@ -4,5 +4,5 @@ pre_ci_boot:
    tag: "latest"
 ci:
    - mvn package
-   - cp target/ $ALAUDACI_DEST_DIR/target/
+   - cp -r target/ $ALAUDACI_DEST_DIR/target/
    - cp Dockerfile $AUAUDACI_DEST_DIR
