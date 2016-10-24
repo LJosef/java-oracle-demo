@@ -5,4 +5,4 @@ pre_ci_boot:
 ci:
    - mvn package
    - cp -r target/ $ALAUDACI_DEST_DIR/target/
-   - cp Dockerfile $AUAUDACI_DEST_DIR
+   - cp Dockerfile $ALAUDACI_DEST_DIR
