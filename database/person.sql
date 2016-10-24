@@ -3,4 +3,6 @@ CREATE TABLE PERSON (
   name varchar(20) NOT NULL,
   country varchar(20) NOT NULL,
   PRIMARY KEY (id)
-  6  );
+);
+
+create sequence PERSON_ID_SEQ start with 1;
